@@ -1,0 +1,24 @@
+{
+  "spark": [
+    {
+      "name": "tests_alphaValue",
+      "sloc": [
+        {
+          "file": "tests_alphavalue.adb",
+          "line": 4
+        }
+      ],
+      "spark": "no"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+  ],
+  "timings": {
+    "marking": 7.46796024031937E-04,
+    "globals (basic)": 8.65847896784544E-03,
+    "globals/properties (advanced)": 1.43324928358197E-02,
+    "flow analysis": 4.08413994591683E-04
+  }
+}
