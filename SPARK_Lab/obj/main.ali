@@ -1,0 +1,60 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatA
+A -g
+A -fstack-check=specific
+A -gnata
+A -gnato
+A -gnat12
+A -gnatwa
+A -gnateE
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		2e0f03ca NE OO SU
+W tests_alphavalue%b	tests_alphavalue.adb	tests_alphavalue.ali
+W tests_reversestring%b	tests_reversestring.adb	tests_reversestring.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D main.adb		20191007213006 b28a71b4 main%b
+D pkg_alphavalue.ads	20191010094856 c4178a02 pkg_alphavalue%s
+D pkg_reversestring.ads	20191007204108 33ef800b pkg_reversestring%s
+D system.ads		20190518041258 32a08138 system%s
+D s-assert.ads		20190518041256 cd8d2c94 system.assertions%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D tests_alphavalue.adb	20191007223224 7eeec3bf tests_alphavalue%b
+D tests_reversestring.adb  20191007211936 e26bb1c1 tests_reversestring%b
+G a e
+G c Z b b [main standard 4 11 none]
+G r c none [main standard 4 11 none] [tests_reversestring standard 4 11 none]
+G r c none [main standard 4 11 none] [tests_alphavalue standard 4 11 none]
+X 10 main.adb
+4U11*Main 4b11 8l5 8t9
+X 27 tests_alphavalue.adb
+4U11*tests_alphaValue 10|2w6 7s4
+X 28 tests_reversestring.adb
+4U11*Tests_reverseString 10|1w6 6s4
+
