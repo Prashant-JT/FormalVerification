@@ -1,5 +1,5 @@
 # FormalVerification
-The following algorithms are implemented using Formal Verification in SPARK:
+The following algorithms are implemented using Formal Verification in SPARK 2014:
 
 Function AlphaValues ​​(InStr: String) return Natural_Array; Function to which a String of characters is passed as a parameter, this returns a vector with the positions of each character in the alphabet. (A = 1, B = 2 ... Y = 25, Z = 26) (hola -> {8,15,12,1})
 
